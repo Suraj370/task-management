@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+body{
+	background-color: rgb(107, 138, 185);
+	font-family: 'Arvo', serif;
+	
+}
+.container{
+	position: absolute;
+	left: 50%;
+	top:50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+}
+
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+}
+input{
+	font-family: 'Arvo', serif;
+	padding: 10px;
+	width: 70%;
+	border: 2px solid rgb(32, 22, 98);
+	width: 100%;
+}
+
+input[type=submit], button{
+	font-family: 'Arvo', serif;
+	padding: 10px;
+	background-color: rgb(158, 167, 209);
+	color: white;
+	border: none;
+	border-right: 2px solid rgb(15, 128, 204);
+	border-bottom: 2px solid rgb(15, 128, 204);
+	cursor: pointer;
+	width: 110%;
+
+}
+
+.warning{
+	color: rgb(247, 44, 91);
+	padding: 10px;
+}
